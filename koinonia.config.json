@@ -3,6 +3,6 @@
   "Author" : "neuecc",
   "Version" : "master",
   "Mappings" : {
-    "Scripts" : "Assets/Plugins/UniRx/Scripts"
+    "Default" : "Assets/Plugins/UniRx/Scripts"
   }
 }
