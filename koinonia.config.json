@@ -1,5 +1,8 @@
 {
   "Title" : "UniRx",
   "Author" : "neuecc",
-  "Version" : "master"
+  "Version" : "master",
+  "Mappings" : {
+    "Scripts" : "Assets/Plugins/UniRx/Scripts"
+  }
 }
