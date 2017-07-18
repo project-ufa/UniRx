@@ -309,7 +309,7 @@ namespace UniRx
                         var distpacher2 = Instance;
                         if (distpacher2 != null)
                         {
-                            distpacher2.StartCoroutine_Auto(routine);
+                            (distpacher2 as MonoBehaviour).StartCoroutine_Auto(routine);
                         }
                     }, null);
                 }
@@ -364,7 +364,7 @@ namespace UniRx
             var dispatcher = Instance;
             if (dispatcher != null)
             {
-                return dispatcher.StartCoroutine_Auto(routine);
+                return (dispatcher as MonoBehaviour).StartCoroutine_Auto(routine);
             }
             else
             {
